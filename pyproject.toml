@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "zodi-parameter-estimation"
+version = "0.1.0"
+description = "scripts for AST9051SP and zodi parameter fitting."
+authors = ["Metin San <metinisan@gmail.com>"]
+license = "GPL-3.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.1"
+astropy = "^5.2.1"
+zodipy = "^0.8.3"
+healpy = "^1.16.2"
+ipython = "^8.9.0"
+jupyter = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+ruff = "^0.0.238"
+black = "^22.12.0"
+mypy = "^0.991"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
